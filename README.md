@@ -35,7 +35,7 @@ This project uses Azure Sentinel SIEM to detect and monitor live RDP brute-force
    - Now to obtain the log from VM, Navigate to the path where the log is saved and copy the log data from VM and paste it on Notepad and save it on host system
    - upload the log file 
    - provide the log path and wait for the custom log to be created 
-10. Use Kusto Query Language (KQL) to extract geolocation data directly from logs.
+10. Use Kusto Query Language (KQL) to extract geolocation data directly from logs.[KQLQuery.kql](relative/path/to/file)
 11. Visualize Data on Azure Sentinel Map
    - Go to Workbooks in Azure Sentinel.
    - Create a new Custom Workbook.
