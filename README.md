@@ -28,7 +28,7 @@ This project uses Azure Sentinel SIEM to detect and monitor live RDP brute-force
 7. Turn off Windows firewall for the VM
    - temporarily disable firewall to increase honey pot visibility
    - ping the host machine to the VM to check if the VM is completely exposed to inbound traffic
-8. Write/Download [](relative/path/to/file) a Powershell Script to fetch attacker Geolocation data
+8. Write/Download [Custom_Security_Log_Exporter.ps1](relative/path/to/file) a Powershell Script to fetch attacker Geolocation data
    - use geolocation.io or (similar ip lookup services) and get API key to implement in Powershell Script
 9. Bring Custom log in LAW in Azure portal
    - Navigate to LAW in the portal and select Tables under the created LAW and create a custom log (MMA-based)
