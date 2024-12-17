@@ -42,6 +42,7 @@ This project uses Azure Sentinel SIEM to detect and monitor live RDP brute-force
    - Add a Map visualization widget
    - Under Map settings set the metric label and metric value as per the KQL query fields
 ## Screenshot  
+### World map of incoming attacks after 24 hours (built custom logs including geodata)
 ![image](https://github.com/user-attachments/assets/b6c7dac8-c2e9-4054-a467-a770a6e77536)
 - Here the metric label and metric value is set as label and event_count respectively
 
